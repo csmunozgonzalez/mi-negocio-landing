@@ -14,7 +14,7 @@
     <!-- Google Fonts: Playfair Display (Serif Elegante) & Inter (Limpio Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -84,10 +84,11 @@
             <div class="flex items-center gap-4">
                 <span class="text-2xl font-extrabold tracking-tighter font-sans lowercase">mi-negocio<span class="text-orange-500">.co</span></span>
             </div>
-            <div class="hidden md:flex gap-10 items-center">
+            <div class="hidden md:flex gap-8 items-center">
                 <a href="#beneficios" class="noir-link">Beneficios</a>
+                <a href="#proceso" class="noir-link">El Proceso</a>
+                <a href="#precios" class="noir-link">Planes</a>
                 <a href="#exito" class="noir-link">Clientes</a>
-                <a href="#contacto" class="noir-link text-gray-400 hover:text-white">Asesoría</a>
                 <a href="https://app.mi-negocio.co" class="border border-orange-500 text-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300 text-sm font-bold tracking-widest ml-4">
                     LOGIN
                 </a>
@@ -101,7 +102,6 @@
 
     <!-- Hero Section -->
     <section class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-black">
-        <!-- Imagen fotográfica natural -->
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" class="absolute w-full h-full object-cover opacity-80" alt="Oficina corporativa">
         <div class="video-overlay"></div>
         
@@ -117,8 +117,8 @@
                 <a href="#contacto" class="bg-orange-500 text-white px-10 py-5 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg shadow-orange-500/20">
                     INICIAR PROYECTO
                 </a>
-                <a href="#beneficios" class="bg-transparent border border-gray-400 text-gray-200 px-10 py-5 rounded-full hover:border-orange-500 hover:text-orange-500 transition-colors duration-300">
-                    NUESTRA PROPUESTA
+                <a href="#precios" class="bg-transparent border border-gray-400 text-gray-200 px-10 py-5 rounded-full hover:border-orange-500 hover:text-orange-500 transition-colors duration-300">
+                    VER TARIFAS
                 </a>
             </div>
         </div>
@@ -133,8 +133,8 @@
                 </div>
                 <div class="md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <p class="text-xl font-light text-gray-600 leading-relaxed border-l-2 border-orange-500 pl-8">
-                        Tú te enfocas en vender, nosotros en la tecnología. Operamos bajo el modelo de subdominios para evitarte el caos técnico. <br><br>
-                        Perfecto para restaurantes, negocios locales y emprendedores que desean dar su primer gran salto sin vaciar el bolsillo.
+                        Tú te enfocas en vender, nosotros en la tecnología. Operamos bajo el modelo integrado para evitarte el caos técnico. <br><br>
+                        Perfecto para restaurantes, negocios locales y corporativos que desean escalar sus procesos sin vaciar el bolsillo.
                     </p>
                 </div>
             </div>
@@ -145,63 +145,158 @@
                 <div class="p-12 border-b border-r border-gray-200 hover:bg-slate-50 transition-colors duration-500 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <i class="fa-solid fa-code text-4xl mb-8 text-orange-500 group-hover:scale-110 transition-transform"></i>
                     <h3 class="text-2xl mb-4 uppercase tracking-widest text-black">Cero estrés<br>Técnico</h3>
-                    <p class="font-light text-gray-500">Nos encargamos de todo. Mantenimiento, plataforma y servidores. Tu marca digital con <em class="text-orange-600">tunegocio.mi-negocio.co</em>.</p>
+                    <p class="font-light text-gray-500">Nos encargamos de todo. Mantenimiento, plataforma y servidores. Tu marca digital con <em class="text-orange-600">tu-empresa.co</em> garantizada.</p>
                 </div>
-                <!-- Carta 2: La destacada sigue en negro profundo -->
+                <!-- Carta 2: La destacada -->
                 <div class="p-12 border-b border-r border-gray-200 bg-black text-white relative overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500 blur-3xl opacity-20"></div>
                     <i class="fa-solid fa-gem text-4xl mb-8 text-orange-400 relative z-10 transition-transform duration-500 hover:rotate-12"></i>
                     <h3 class="text-2xl mb-4 uppercase tracking-widest relative z-10">Presencia<br>Premium</h3>
-                    <p class="font-light text-gray-400 relative z-10">Diseños meticulosos, alto contraste, carga rápida y un desarrollo estético que proyecta confianza inquebrantable.</p>
+                    <p class="font-light text-gray-400 relative z-10">Diseños meticulosos, alto contraste, carga rápida y un desarrollo estético que proyecta confianza inquebrantable a tus clientes.</p>
                 </div>
                 <!-- Carta 3 -->
                 <div class="p-12 border-b border-r border-gray-200 hover:bg-slate-50 transition-colors duration-500 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <i class="fa-solid fa-robot text-4xl mb-8 text-orange-500 group-hover:scale-110 transition-transform"></i>
-                    <h3 class="text-2xl mb-4 uppercase tracking-widest text-black">Integraciones<br>Futuras</h3>
-                    <p class="font-light text-gray-500">Preparado para el próximo nivel. Inteligencia Artificial, chatbots y CRMs para automatizar tu embudo comercial.</p>
+                    <h3 class="text-2xl mb-4 uppercase tracking-widest text-black">Escala a la<br>Medida</h3>
+                    <p class="font-light text-gray-500">Arquitectura libre y lista para integraciones. Inteligencia Artificial, chatbots y CRMs para automatizar tu negocio cuando estés listo.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Pasos / Cómo Funciona -->
-    <section class="border-t border-gray-200 bg-white py-32 overflow-hidden">
+    <section id="proceso" class="border-t border-gray-200 bg-white py-32 overflow-hidden">
         <div class="max-w-7xl mx-auto px-8 text-center mb-20" data-aos="fade-up" data-aos-duration="1000">
             <span class="text-xs uppercase tracking-[0.3em] text-orange-500 mb-4 font-semibold block">Proceso</span>
             <h2 class="text-4xl md:text-6xl mb-6">Un proceso <em class="italic text-orange-500">invisible</em> para ti.</h2>
-            <p class="text-xl font-light text-gray-600 max-w-2xl mx-auto">Nuestro equipo se encarga absolutamente de toda la ingeniería y despliegue técnico. Tú solo sigues 3 simples pasos y estás en línea.</p>
+            <p class="text-xl font-light text-gray-600 max-w-2xl mx-auto">Nuestro equipo se encarga absolutamente de la ingeniería. Tú solo sigues 3 simples pasos y estás en línea facturando.</p>
         </div>
         
-        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-12 text-left relative">
-            <!-- Línea conectora visual (Oculta en móvil) -->
-            <div class="hidden md:block absolute top-12 left-[15%] right-[15%] h-px bg-gray-200 z-0"></div>
+        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-12 text-center md:text-left relative">
+            <!-- Línea conectora visual -->
+            <div class="hidden md:block absolute top-[48px] left-[20%] right-[20%] h-px bg-gray-200 z-0"></div>
             
-            <!-- Paso 1 -->
+            <!-- Paso 1 (Icono centrado y pulido) -->
             <div class="relative z-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <div class="w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-4xl font-serif-elegant mb-8 mx-auto md:mx-0 shadow-lg shadow-black/20">01</div>
-                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold text-center md:text-left">Iniciamos</h3>
-                <p class="font-light text-gray-600 text-center md:text-left">Te asesoramos vía WhatsApp para resolver todas las dudas iniciales. Seleccionas el plan ideal y realizas tu compra desde un link 100% seguro.</p>
+                <div class="w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-3xl mb-8 mx-auto md:mx-0 shadow-lg shadow-black/20 transform hover:-translate-y-2 transition-transform duration-300">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold">1. Iniciamos</h3>
+                <p class="font-light text-gray-600">Te asesoramos vía WhatsApp para resolver las dudas sobre arquitectura técnica y elijes la solución justa que se adapte a tu bolsillo.</p>
             </div>
             
             <!-- Paso 2 -->
             <div class="relative z-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <div class="w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-4xl font-serif-elegant mb-8 mx-auto md:mx-0 shadow-lg shadow-black/20">02</div>
-                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold text-center md:text-left">Tu Información</h3>
-                <p class="font-light text-gray-600 text-center md:text-left">Recibes un formulario rápido digital donde nos subes el logo de tu negocio, tu menú/catálogo, fotos y breve historia. Sin correos complicados.</p>
+                <div class="w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-3xl mb-8 mx-auto md:mx-0 shadow-lg shadow-black/20 transform hover:-translate-y-2 transition-transform duration-300">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold">2. Tu Información</h3>
+                <p class="font-light text-gray-600">Recibes un formulario digital rápido donde nos nutres con el logo, contacto, textos maestros y las reglas de negocio base.</p>
             </div>
             
             <!-- Paso 3 -->
             <div class="relative z-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <div class="w-24 h-24 bg-orange-500 text-white rounded-full flex items-center justify-center text-4xl font-serif-elegant mb-8 mx-auto md:mx-0 shadow-lg shadow-orange-500/30 ring-4 ring-white">03</div>
-                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold text-center md:text-left">Al Aire (24h)</h3>
-                <p class="font-light text-gray-600 text-center md:text-left">Nuestro equipo maqueta, diseña y lanza tu aplicación final al servidor de alta capacidad. En 24h te entregamos las llaves de tu nuevo negocio.</p>
+                <div class="w-24 h-24 bg-orange-500 text-white rounded-full flex items-center justify-center text-3xl mb-8 mx-auto md:mx-0 shadow-lg shadow-orange-500/30 ring-4 ring-white transform hover:-translate-y-2 transition-transform duration-300">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <h3 class="text-2xl uppercase tracking-widest mb-4 font-bold">3. Al Aire (24h)</h3>
+                <p class="font-light text-gray-600">Nuestro equipo compila el código, la seguridad SSL y lanza tu portal funcional. Listo para vender al público masivo en 24h.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precios a la Carta -->
+    <section id="precios" class="py-32 bg-slate-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="text-center mb-20" data-aos="fade-up" data-aos-duration="1000">
+                <span class="text-xs uppercase tracking-[0.3em] text-orange-500 mb-4 font-semibold block">Inscripción e Inversión</span>
+                <h2 class="text-4xl md:text-6xl mb-6">Modelo <em class="italic text-orange-500">Escalable</em> Modular</h2>
+                <p class="text-xl font-light text-gray-600 max-w-2xl mx-auto">Precios competitivos para tu bolsillo Pyme. No pagues de más por complementos gigantescos; adquiere un cimiento fuerte y ve integrando superpoderes cuando estés preparado.</p>
+            </div>
+
+            <div class="grid md:grid-cols-[1fr_1.2fr] gap-12 items-center max-w-6xl mx-auto">
+                <!-- Plan Base -->
+                <div class="bg-black text-white p-10 md:p-14 rounded-3xl shadow-2xl relative overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-orange-500 blur-[120px] opacity-20"></div>
+                    <span class="inline-block px-4 py-1 rounded-full bg-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-widest mb-6 border border-orange-500/30">Obligatorio</span>
+                    <h3 class="text-3xl uppercase tracking-widest font-bold mb-4 font-sans">El Cimiento</h3>
+                    <p class="font-light text-gray-400 mb-8 border-l border-gray-800 pl-4">Creamos todo el cascarón de código, lo subimos al servidor oficial y dejamos a Colombia entera ver tu oferta de valor. Despliegue Express.</p>
+                    
+                    <div class="mb-10">
+                        <span class="text-5xl lg:text-6xl font-serif-elegant tracking-tighter text-white font-bold">$350.000</span>
+                        <span class="text-sm font-light text-gray-400 block mt-2 tracking-widest uppercase">COP / ÚNICO PAGO SETUP</span>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-10 font-light text-gray-300">
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-check text-orange-500"></i> Diseño "Noir" adaptativo para móviles</li>
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-check text-orange-500"></i> Botones enlazados a tu WhatsApp</li>
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-check text-orange-500"></i> Certificado de Seguridad (Hacker Proof)</li>
+                    </ul>
+                    
+                    <div class="pt-8 border-t border-gray-800 flex items-center justify-between">
+                        <div>
+                            <span class="text-3xl font-serif-elegant font-bold text-orange-400">$50.000</span> 
+                            <span class="text-sm text-gray-400 tracking-widest uppercase ml-1">COP / Mes</span>
+                            <p class="text-[11px] text-gray-500 mt-2 uppercase tracking-widest">Alojamiento CloudPanel + Soporte Incondicional</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expansiones (Menú a la carta) -->
+                <div class="flex flex-col gap-5 bg-white p-10 rounded-3xl border border-gray-200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h3 class="text-lg font-bold uppercase tracking-widest text-gray-400 mb-4 border-b border-gray-100 pb-2">Catálogo de Expansiones (Add-ons)</h3>
+                    
+                    <div class="group bg-slate-50 p-6 rounded-2xl border border-transparent shadow-sm hover:border-orange-500 hover:shadow-orange-500/10 transition-all cursor-crosshair">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-orange-100 text-orange-500 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                                    <i class="fa-solid fa-robot"></i>
+                                </div>
+                                <h4 class="font-bold text-lg text-black">Agente Chat IA</h4>
+                            </div>
+                            <span class="font-serif-elegant font-bold text-xl text-black">+$150k <span class="text-sm text-gray-400">setup</span></span>
+                        </div>
+                        <p class="text-sm font-light text-gray-600 ml-[52px]">Conectamos tu web a ChatGPT para responder preguntas automáticas a los clientes de tu restaurante o servicio 24/7 sin que debas intervenir.</p>
+                    </div>
+
+                    <div class="group bg-slate-50 p-6 rounded-2xl border border-transparent shadow-sm hover:border-orange-500 hover:shadow-orange-500/10 transition-all cursor-crosshair">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-orange-100 text-orange-500 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <h4 class="font-bold text-lg text-black">Motor CRM Simple</h4>
+                            </div>
+                            <span class="font-serif-elegant font-bold text-xl text-black">+$250k <span class="text-sm text-gray-400">setup</span></span>
+                        </div>
+                        <p class="text-sm font-light text-gray-600 ml-[52px]">Inyectamos analítica y almacenamiento automático de prospectos en tu base de datos para no perder una sola oportunidad comercial.</p>
+                    </div>
+
+                    <div class="group bg-transparent p-6 rounded-2xl border border-dashed border-gray-300 transition-all cursor-crosshair">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gray-100 text-gray-400 flex items-center justify-center group-hover:text-black">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <h4 class="font-bold text-lg text-black">Ingeniería A la Medida</h4>
+                            </div>
+                            <span class="text-xs tracking-widest text-orange-500 font-bold uppercase bg-orange-50 px-3 py-1 rounded-full">A Cotizar</span>
+                        </div>
+                        <p class="text-sm font-light text-gray-500 ml-[52px]">Dedicado a pasarelas de pago fuertes (MercadoPago/Wompi), paneles de miembros o bases relacionales con backend profundo como este sitio.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-20" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <a href="#contacto" class="inline-block bg-orange-500 text-white uppercase tracking-widest font-bold px-12 py-6 rounded-full hover:bg-orange-600 transition-transform transform hover:scale-105 shadow-xl shadow-orange-500/20 ring-4 ring-orange-500/10">
+                    ADQUIRIR PLAN MATRIZ AHORA
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Casos de Éxito -->
     <section id="exito" class="bg-black text-white py-32 relative overflow-hidden">
-        <!-- Glow Sutil Naranja de fondo -->
         <div class="absolute -left-40 bottom-0 w-96 h-96 bg-orange-600 blur-[150px] opacity-20 pointer-events-none"></div>
         
         <div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row items-center gap-16 relative z-10">
@@ -210,14 +305,14 @@
                 <div class="absolute inset-0 border border-orange-500/30 m-4 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
             <div class="md:w-1/2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                <span class="text-xs uppercase tracking-[0.3em] text-orange-500 block mb-4 font-semibold">Caso de Éxito</span>
+                <span class="text-xs uppercase tracking-[0.3em] text-orange-500 block mb-4 font-semibold">Caso de Éxito Local</span>
                 <h2 class="text-5xl md:text-7xl mb-8">Asadero El <em class="italic text-orange-400">Portal</em> Llanero</h2>
                 <div class="h-px w-24 bg-orange-500 mb-8"></div>
                 <p class="text-xl md:text-2xl font-light text-gray-300 leading-relaxed italic mb-10">
-                    "Nunca habíamos considerado tener un sitio web por lo complejo y caro que parecía. Mi-Negocio.co lo hizo transparente y al instante pudimos ofrecer a nuestros clientes una plataforma donde encontrarnos."
+                    "Nunca habíamos considerado tener un sitio web por lo complejo y caro que parecía. Mi-Negocio.co lo hizo transparente y al instante pudimos ofrecer a nuestros clientes en Tunja y la vía una plataforma corporativa para el menú."
                 </p>
                 <a href="https://elportalllanero.mi-negocio.co" target="_blank" class="noir-link text-white text-lg font-semibold hover:text-orange-400">
-                    Visitar Proyecto <i class="fa-solid fa-arrow-right ml-2 text-sm text-orange-500"></i>
+                    Analizar Caso <i class="fa-solid fa-arrow-right ml-2 text-sm text-orange-500"></i>
                 </a>
             </div>
         </div>
@@ -226,12 +321,12 @@
     <!-- Cierre CTA -->
     <section id="contacto" class="py-32 bg-white text-center border-t border-gray-200 overflow-hidden">
         <div class="max-w-4xl mx-auto px-8" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-5xl md:text-7xl mb-8 text-black">Estás a un Paso de tu <br><em class="italic text-orange-500">Página Web</em></h2>
-            <p class="text-xl font-light text-gray-600 mb-12">
-                Deja que la tecnología trabaje por ti. Contáctanos por WhatsApp y comencemos a diseñar tu presencia digital hoy mismo.
+            <h2 class="text-5xl md:text-7xl mb-8 text-black">Estás a un Clic de tu <br><em class="italic text-orange-500">Activo Mayor</em></h2>
+            <p class="text-xl font-light text-gray-600 mb-12 max-w-2xl mx-auto">
+                No pospongas más tu digitalización por dolores de cabeza técnicos. Conversa por WhatsApp con nuestros ingenieros y empieza la construcción hoy.
             </p>
             <a href="https://wa.me/573017866276" class="inline-block bg-orange-500 text-white uppercase tracking-widest font-semibold px-12 py-6 rounded-full hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20 hover:scale-105 transform duration-300">
-                HABLAR CON UN ASESOR
+                WHATSAPP ASESORÍA CERO ESTRÉS
             </a>
         </div>
     </section>
@@ -240,7 +335,7 @@
     <footer class="bg-black text-center border-t border-gray-900 py-12">
         <div class="max-w-7xl mx-auto px-8 flex flex-col items-center">
             <h2 class="text-3xl font-extrabold tracking-tighter font-sans text-white mb-6 lowercase">mi-negocio<span class="text-orange-500">.co</span></h2>
-            <p class="text-xs uppercase tracking-widest text-gray-500 font-light">&copy; 2026 Mi-Negocio.co - Colombia.</p>
+            <p class="text-xs uppercase tracking-widest text-gray-500 font-light">&copy; 2026 Mi-Negocio.co Software - Colombia B2B.</p>
         </div>
     </footer>
 
@@ -248,8 +343,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            once: true, // La animación solo se ejecuta la primera vez que se baja
-            offset: 80, // Pixeles de margin antes de activar la animación
+            once: true,
+            offset: 80,
             easing: 'ease-in-out-cubic',
         });
     </script>
